@@ -1,3 +1,3 @@
 <?php
-exec("sudo –u cms git pull");
+exec("sudo -u cms git pull");
 ?>
