@@ -60,7 +60,9 @@ class Handler
         }
 
         //exec("git --work-tree={$this->gitDir} pull -f {$this->remote}", $this->gitOutput);
-        exec("sudo –u cms git pull");
+        exec("sudo -u cms git pull");
+
+
         return true;
     }
 
